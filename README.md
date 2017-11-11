@@ -1,5 +1,7 @@
-//# JS-Challenge-Day-1
-//A javascript drumkit that makes sounds and lights up via keyboard interaction
+# JS-Challenge-Day-1
+
+A javascript drumkit that makes sounds and lights up via keyboard interaction
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -72,7 +74,7 @@
 </body>
 </html>
 
-
+<style>
 .boss {
 	display: grid;
 	grid-template-columns:  repeat(9, 1fr);
@@ -100,10 +102,9 @@ body{
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 	background-position: center;
-	
 }
 
-
+</style>
 
 <script>
 window.addEventListener('keydown', function(e){
