@@ -82,7 +82,9 @@ A javascript drumkit that makes sounds and lights up via keyboard interaction
 
 		});
 
-	
+When pressed, it makes a bang and looks like this. Provided you added the sound files
+[!Screenshot](keydown.png)
+
 ## the css
 
 		@import url('https://fonts.googleapis.com/css?family=Alegreya');
